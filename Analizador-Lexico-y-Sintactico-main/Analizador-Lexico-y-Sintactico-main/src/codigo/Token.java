@@ -1,0 +1,19 @@
+package codigo;
+
+public enum Token {
+    PALABRA_RESERVADA,
+    ACCION,
+    CONTROL_GARRA,
+    IDENTIFICADOR,
+    METODO,
+    NUMERO_ENTERO,
+    OPERADOR_PUNTO,
+    OPERADOR_ASIGNACION,
+    PARENTESIS_A,
+    PARENTESIS_C,
+    COMA,
+    PUNTO_COMA,
+    COMENTARIO,
+    ESPACIO,
+    DESCONOCIDO
+}
